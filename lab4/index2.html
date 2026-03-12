@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лютейший стакан</title>
+    <link href="style2.css" rel="stylesheet">
+    <link href="style4.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+    <h1>Купи этот стакан</h1>
+    <nav>
+        <a href="#prichiny">Причины это купить</a>
+        <a href="#otzivi">Отзывы</a>
+        <a href="#reklama">Реклама</a>
+    </nav>
+    <button id="theme-toggle" class="theme-btn">Тёмная тема</button>
+    </header>
+    <main class="content-area">
+        <section>
+            <div class="image-container">
+                <img src="https://img.freepik.com/premium-psd/two-white-plastic-cups-are-upside-down-one-has-white-lid_1370429-1512.jpg?semt=ais_hybrid" alt="Cтаканы">
+            </div>
+            <div class="slogan-box">
+                <p> Ты хочешь пить. Тебе плохо. Тебе нужен стакан.</p>
+            </div>
+        </section>
+        
+        <section id="prichiny">
+            <h2>5 причин купить это новшество:</h2>
+            <ul class="reasons-list">
+                <li class="reason-item">
+                    <strong>Он вмещает в себя жидкость</strong>
+                    <p>Неважно, вода это или слезы</p>
+                </li>
+                <li class="reason-item">
+                    <strong>Можно сломать</strong>
+                    <p>Если уровень агрессии на пределе, лучше сломай его, чем чей-то позвоночник</p>
+                </li>
+                <li class="reason-item">
+                    <strong>Цвет приятен глазу</strong>
+                    <p>Чаще всего.</p>
+                </li>
+                <li class="reason-item">
+                    <strong>Цена</strong>
+                    <p>Чтобы его купить хватит твоей зарплаты.</p>
+                </li>
+                <li class="reason-item">
+                    <strong>Экологично</strong>
+                    <p>Это типо круто и полезно.</p>
+                </li>
+            </ul>
+            <a href="#" class="buy-btn">Забрать бесплатно(но не совсем)</a>
+        </section>
+        
+        <section id="otzivi" class="reviews-section">
+            <h3>Отзывы</h3>
+            <div class="reviews-grid" id="reviews-container">
+                <div class="review">
+                    <p>"Норм"</p>
+                    <span class="author">@anon_67</span>
+                </div>
+                <div class="review">
+                    <p>"Протекло, 10/10"</p>
+                    <span class="author">@hater</span>
+                </div>
+                <div class="review">
+                    <p>"Не буду говорить, для чего я его использовал, но это круто"</p>
+                    <span class="author">@sigma</span>
+                </div>
+                <div class="review">
+                    <p>"..."</p>
+                    <span class="author">@void</span>
+                </div>
+            </div>
+            <div class="review-form">
+                <h4>Оставить отзыв</h4>
+                <form id="review-form">
+                    <div class="form-group">
+                        <label for="review-image">Ссылка на изображение (необязательно):</label>
+                        <input type="url" id="review-image" placeholder="https://...">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="review-name">Имя:</label>
+                        <input type="text" id="review-name" placeholder="Ваше имя" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="review-text">Текст отзыва:</label>
+                        <textarea id="review-text" placeholder="Ваш отзыв" rows="3" required></textarea>
+                    </div>
+                    
+                    <div id="form-error" class="error-message"></div>
+                    
+                    <button type="submit" class="submit-btn">Добавить отзыв</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <aside class="sidebar" id="reklama">
+        <div class="ad-block ad-1">
+            <h3>Купи уже этот стакан</h3>
+            <p>Срочно нужны деньги на новый скин в доте.</p>
+            <button>Помочь</button>
+        </div>
+        
+        <div class="ad-block ad-2">
+            <h3>Обучение пользованию стаканом</h3>
+            <p>Научим тебя даже этому, только купи, прошу.</p>
+            <div class="loader"></div>
+        </div>
+
+        <div class="ad-block ad-3">
+            <h3>Найди для себя любой удобный стакан</h3>
+            <p>Какой захочешь.</p>
+        </div>
+
+        <div class="ad-block ad-4">
+            <h3>Error 404</h3>
+            <p>Реклама не найдена. Но найден стакан.</p>
+        </div>
+    </aside>
+    <footer>
+        <p>© 2026 Никто. Все права нарушены.</p>
+    </footer>
+    <script src="cookie.js"></script>
+    <script src="lab4.js"></script>
+</body>
+</html>
