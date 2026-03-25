@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторная работа 6: API</title>
+    <link rel="stylesheet" href="style6.css">
+</head>
+<body>
+<header class="navbar">
+    <div class="nav-container">
+        <div class="logo">📡 API Лабораторная работа</div>
+        <nav class="nav-links" aria-label="Навигация по API">
+            <button class="nav-btn" data-api="dogs" aria-label="Dog API - получение изображений собак">🐕 Dog API</button>
+            <button class="nav-btn" data-api="catfacts" aria-label="Cat Facts API - факты о кошках с переводом">🐱 Cat Facts API</button>
+            <button class="nav-btn" data-api="randomuser" aria-label="RandomUser API - генерация пользователей">👥 RandomUser</button>
+        </nav>
+    </div>
+</header>
+<main class="container" id="appContainer">
+    <div id="apiContent">
+        <section class="api-card">
+            <div class="api-header">
+                <h1 class="api-title">Выберите API в меню</h1>
+            </div>
+            <div class="api-content">
+                <p>Используйте навигацию в шапке для работы с тремя разными API из предоставленных ссылок:</p>
+                <ul class="feature-list">
+                    <li>🐕 <strong>Dog API</strong> - получение случайных изображений собак</li>
+                    <li>🐱 <strong>Cat Facts API</strong> - интересные факты о кошках с автоматическим переводом + избранное</li>
+                    <li>👥 <strong>RandomUser</strong> - генерация случайных пользователей + локальное управление</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+</main>
+<footer>
+    <p>© 2026 Взаимодействие с API</p>
+</footer>
+<script src="script6.js"></script>
+</body>
+</html>
